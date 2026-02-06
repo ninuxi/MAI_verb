@@ -82,3 +82,19 @@ ehthumbs.db
 # Log files
 *.log
 build.log
+
+# Security - Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.cert
+*.crt
+*.cer
+*.der
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
