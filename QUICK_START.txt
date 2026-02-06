@@ -1,0 +1,142 @@
+╔═══════════════════════════════════════════════════════════╗
+║  MAI_verb - Quick Reference per Mainenti @ aiforlive    ║
+╚═══════════════════════════════════════════════════════════╝
+
+🎯 IL TUO PLUGIN ORA HA:
+━━━━━━━━━━━━━━━━━━━━━━━
+✅ Nome: "MAI_verb by Mainenti"
+✅ Company: "aiforlive"
+✅ Firma gratuita (ad-hoc, no €99 Apple)
+✅ Script automatici per release
+✅ Documentazione completa per utenti
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 WORKFLOW COMPLETO DI RELEASE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1️⃣  BUILD E CREA PACCHETTO:
+
+    cd /Users/mainenti/make_plugin_riverberi
+    ./prepare_release.sh v0.1.1
+
+    Output: releases/MAI_verb_v0.1.1_macOS.zip
+
+
+2️⃣  TESTA LOCALMENTE:
+
+    cd releases/MAI_verb_v0.1.1_macOS
+    xattr -cr *.vst3 *.component
+    cp -r *.vst3 ~/Library/Audio/Plug-Ins/VST3/
+    cp -r *.component ~/Library/Audio/Plug-Ins/Components/
+
+    # Apri DAW e testa
+
+
+3️⃣  CARICA SU GITHUB:
+
+    • Vai su: https://github.com/ninuxi/MAI_verb/releases
+    • Clicca "Draft a new release"
+    • Tag: v0.1.1
+    • Titolo: "MAI_verb v0.1.1"
+    • Carica: releases/MAI_verb_v0.1.1_macOS.zip
+    • Pubblica!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 COMANDI UTILI
+━━━━━━━━━━━━━━
+
+Build solo plugin:
+    cd BricastiM7_Clone
+    ./build_m7.sh
+
+Firma plugin esistenti:
+    ./sign_plugins.sh
+
+Verifica firma:
+    codesign -dv BricastiM7_Clone/build/**/*.vst3
+
+Pulisci build:
+    rm -rf BricastiM7_Clone/build
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 DOCUMENTAZIONE
+━━━━━━━━━━━━━━━
+
+Per te (developer):
+    • CODESIGN_FREE.md       → Guida code signing gratuito
+    • DISTRIBUTION_GUIDE.md  → Workflow completo
+    • sign_plugins.sh        → Script firma automatica
+
+Per utenti:
+    • README.md              → Istruzioni installazione
+    • INSTALLATION.txt       → Incluso nel ZIP release
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❓ COSA DIRE AGLI UTENTI
+━━━━━━━━━━━━━━━━━━━━━━
+
+"Il plugin è firmato ad-hoc (gratuito, sicuro).
+ Esegui solo questo comando prima di installare:
+
+ xattr -cr *.vst3 *.component
+
+ È normale per plugin open source - non serve pagare Apple!"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔐 CONFRONTO CODE SIGNING
+━━━━━━━━━━━━━━━━━━━━━━━
+
+Ad-Hoc (TUO)          vs  Apple Developer ID
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+€0 GRATIS                   €99/anno
+Plugin firmato ✅            Plugin firmato ✅
+Open source perfetto ✅      App Store ✅
+Utente: xattr -cr           Nessuna azione utente
+Notarization ❌             Notarization ✅
+
+Per plugin open source → AD-HOC È PERFETTO!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ IL TUO NOME OVUNQUE
+━━━━━━━━━━━━━━━━━━━━
+
+Plugin Info (nelle DAW):
+    Product: "MAI_verb by Mainenti"
+    Manufacturer: "aiforlive"
+    Version: 0.1.0
+
+Codici identificativi:
+    Manufacturer Code: Aif1
+    Plugin Code: MaRv
+    Bundle ID: com.aiforlive.MAI_verb
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎉 TUTTO PRONTO!
+━━━━━━━━━━━━━━━
+
+Ora puoi:
+  ✅ Distribuire plugin su GitHub
+  ✅ Gli utenti possono installarli facilmente
+  ✅ Tutto gratuito (€0 vs €99/anno)
+  ✅ Il tuo nome su tutto
+  ✅ Open source 100%
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📞 SUPPORTO FUTURO
+━━━━━━━━━━━━━━━━
+
+Se qualcuno ha problemi:
+    → GitHub Issues: https://github.com/ninuxi/MAI_verb/issues
+    → Soluzione: "Hai eseguito xattr -cr prima di installare?"
+
+╔═══════════════════════════════════════════════════════════╗
+║  © 2026 Mainenti @ aiforlive - Open Source Audio         ║
+╚═══════════════════════════════════════════════════════════╝
