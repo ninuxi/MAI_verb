@@ -14,7 +14,9 @@ MAI_verb is a versatile reverb plugin that combines advanced DSP algorithms with
 
 Watch and listen to MAI_verb in action:
 
-[![MAI_verb Demo Video](https://img.youtube.com/vi/uMFQvq_DFgA/hqdefault.jpg)](https://youtu.be/uMFQvq_DFgA)
+<a href="https://youtu.be/uMFQvq_DFgA" target="_blank" rel="noopener noreferrer">
+	<img alt="MAI_verb Demo Video" src="https://img.youtube.com/vi/uMFQvq_DFgA/hqdefault.jpg" />
+</a>
 
 ## 🌟 Features
 
