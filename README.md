@@ -44,7 +44,29 @@ Watch and listen to MAI_verb in action:
 
 ## 📥 Installation
 
-Choose your platform:
+**⚠️ macOS Users: Important Code Signing Info**
+
+This plugin is **ad-hoc signed** (free, no Apple Developer certificate). It's **100% safe**, but macOS Gatekeeper may block it without proper installation.
+
+**Quick Install (macOS):**
+
+```bash
+# 1. Download and extract the ZIP
+# 2. Open Terminal and navigate to the extracted folder
+cd ~/Downloads/MAI_verb_*
+
+# 3. Remove quarantine attributes (REQUIRED!)
+xattr -cr *.vst3
+xattr -cr *.component
+
+# 4. Install plugins
+cp -r *.vst3 ~/Library/Audio/Plug-Ins/VST3/
+cp -r *.component ~/Library/Audio/Plug-Ins/Components/
+
+# 5. Restart your DAW
+```
+
+**Full Installation Guides:**
 
 - 🍎 **[macOS Installation Guide](INSTALL_INSTRUCTIONS.md)**
 - 🪟 **[Windows Installation Guide](INSTALL_WINDOWS.md)**

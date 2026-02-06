@@ -20,13 +20,13 @@ add_subdirectory("${JUCE_DIR}" juce_build)
 
 # Create the plugin
 juce_add_plugin(BricastiM7
-    COMPANY_NAME "Mainenti"
-    PLUGIN_MANUFACTURER_CODE Main
-    PLUGIN_CODE MnRv
+    COMPANY_NAME "aiforlive"
+    PLUGIN_MANUFACTURER_CODE Aif1
+    PLUGIN_CODE MaRv
     FORMATS ${JUCE_FORMATS}
-    PRODUCT_NAME "Mainenti Reverb"
-    DESCRIPTION "Professional Algorithmic Reverb"
-    PLUGIN_VERSION_STRING "1.0.0"
+    PRODUCT_NAME "MAI_verb by Mainenti"
+    DESCRIPTION "Professional Algorithmic Reverb - Open Source"
+    PLUGIN_VERSION_STRING "0.1.0"
     VST_NUM_MIDI_INPUTS 0
     VST_NUM_MIDI_OUTPUTS 0
     VST_COPY_DIR ""
