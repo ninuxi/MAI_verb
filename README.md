@@ -10,6 +10,12 @@ A high-quality algorithmic reverb inspired by professional hardware processors, 
 
 MAI_verb is a versatile reverb plugin that combines advanced DSP algorithms with an intuitive interface to deliver studio-quality reverb for music production, sound design, and audio post-production.
 
+## 🎥 Demo Video
+
+Watch and listen to MAI_verb in action:
+
+<video controls src="https://github.com/ninuxi/MAI_verb/raw/main/demo_video.mp4" width="100%"></video>
+
 ## 🌟 Features
 
 - **8x8 FDN Algorithm** - Complex, natural-sounding reverb texture
