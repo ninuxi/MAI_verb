@@ -1,4 +1,4 @@
-# Installazione su Linux - Mainenti Reverb
+# Installazione su Linux - MAI_verb
 
 ## Formati Disponibili
 - **VST3**: Da usare in qualsiasi DAW compatibile VST3 (Reaper, Ardour, Bitwig, ecc.)
@@ -38,12 +38,12 @@ oppure
 mkdir -p ~/.vst3
 
 # Copia il plugin VST3
-cp -r "Mainenti Reverb.vst3" ~/.vst3/
+cp -r "MAI_verb.vst3" ~/.vst3/
 
 # Per lo standalone (opzionale)
 mkdir -p ~/.local/bin
-cp "Mainenti Reverb" ~/.local/bin/
-chmod +x ~/.local/bin/"Mainenti Reverb"
+cp "MAI_verb" ~/.local/bin/
+chmod +x ~/.local/bin/"MAI_verb"
 ```
 
 ### Installazione Sistema (richiede sudo)
@@ -51,11 +51,11 @@ chmod +x ~/.local/bin/"Mainenti Reverb"
 ```bash
 # Per VST3
 sudo mkdir -p /usr/local/lib/vst3
-sudo cp -r "Mainenti Reverb.vst3" /usr/local/lib/vst3/
+sudo cp -r "MAI_verb.vst3" /usr/local/lib/vst3/
 
 # Per Standalone
-sudo cp "Mainenti Reverb" /usr/local/bin/
-sudo chmod +x /usr/local/bin/"Mainenti Reverb"
+sudo cp "MAI_verb" /usr/local/bin/
+sudo chmod +x /usr/local/bin/"MAI_verb"
 ```
 
 ### Verifica Installazione
@@ -67,9 +67,9 @@ ls -la ~/.vst3/
 ls -la /usr/local/lib/vst3/
 
 # Testa lo standalone
-"~/.local/bin/Mainenti Reverb"
+"~/.local/bin/MAI_verb"
 # oppure
-/usr/local/bin/"Mainenti Reverb"
+/usr/local/bin/"MAI_verb"
 ```
 
 ## Compilazione su Linux
@@ -121,18 +121,18 @@ sudo pacman -S base-devel cmake git alsa-lib jack2 \
 
 4. **I file compilati saranno in:**
    ```
-   build/BricastiM7_artefacts/VST3/Mainenti Reverb.vst3
-   build/BricastiM7_artefacts/Standalone/Mainenti Reverb
+   build/BricastiM7_artefacts/VST3/MAI_verb.vst3
+   build/BricastiM7_artefacts/Standalone/MAI_verb
    ```
 
 5. **Installa automaticamente:**
    ```bash
    # VST3
-   cp -r build/BricastiM7_artefacts/VST3/"Mainenti Reverb.vst3" ~/.vst3/
+   cp -r build/BricastiM7_artefacts/VST3/"MAI_verb.vst3" ~/.vst3/
    
    # Standalone
-   cp build/BricastiM7_artefacts/Standalone/"Mainenti Reverb" ~/.local/bin/
-   chmod +x ~/.local/bin/"Mainenti Reverb"
+   cp build/BricastiM7_artefacts/Standalone/"MAI_verb" ~/.local/bin/
+   chmod +x ~/.local/bin/"MAI_verb"
    ```
 
 ## Configurazione DAW
@@ -161,7 +161,7 @@ sudo pacman -S base-devel cmake git alsa-lib jack2 \
 
 Controlla le dipendenze mancanti:
 ```bash
-ldd ~/.vst3/"Mainenti Reverb.vst3/Contents/x86_64-linux/Mainenti Reverb.so"
+ldd ~/.vst3/"MAI_verb.vst3/Contents/x86_64-linux/MAI_verb.so"
 ```
 
 Se mancano librerie, installale:
@@ -176,7 +176,7 @@ sudo dnf install glibc libgcc libstdc++
 ### Permessi Negati
 
 ```bash
-chmod -R 755 ~/.vst3/"Mainenti Reverb.vst3"
+chmod -R 755 ~/.vst3/"MAI_verb.vst3"
 ```
 
 ### JACK non funziona
@@ -192,10 +192,10 @@ jack_control start
 
 ```bash
 # Controlla se è eseguibile
-chmod +x ~/.local/bin/"Mainenti Reverb"
+chmod +x ~/.local/bin/"MAI_verb"
 
 # Esegui con debug per vedere errori
-~/.local/bin/"Mainenti Reverb" --verbose
+~/.local/bin/"MAI_verb" --verbose
 ```
 
 ### Audio non funziona (Standalone)
@@ -208,7 +208,7 @@ Il plugin usa ALSA o JACK. Se hai problemi:
 ## Note
 
 - Su Linux, i plugin VST3 sono cartelle (bundle) come su macOS
-- La struttura interna è: `Mainenti Reverb.vst3/Contents/x86_64-linux/*.so`
+- La struttura interna è: `MAI_verb.vst3/Contents/x86_64-linux/*.so`
 - Per ARM64: `aarch64-linux/` invece di `x86_64-linux/`
 - Lo standalone richiede un sistema audio configurato (ALSA/JACK/PulseAudio)
 

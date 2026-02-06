@@ -1,4 +1,4 @@
-# Istruzioni per l'Installazione - Mainenti Reverb
+# Istruzioni per l'Installazione - MAI_verb
 
 ## 🖥️ Scegli il tuo Sistema Operativo
 
@@ -38,22 +38,22 @@ Apri il Terminale e esegui uno di questi comandi a seconda del formato che usi:
 
 #### Per VST3:
 ```bash
-sudo xattr -rd com.apple.quarantine "/Library/Audio/Plug-Ins/VST3/Mainenti Reverb.vst3"
+sudo xattr -rd com.apple.quarantine "/Library/Audio/Plug-Ins/VST3/MAI_verb.vst3"
 ```
 
 #### Per AU (Audio Unit):
 ```bash
-sudo xattr -rd com.apple.quarantine "/Library/Audio/Plug-Ins/Components/Mainenti Reverb.component"
+sudo xattr -rd com.apple.quarantine "/Library/Audio/Plug-Ins/Components/MAI_verb.component"
 ```
 
 #### Per l'app Standalone:
 ```bash
-sudo xattr -rd com.apple.quarantine "/Applications/Mainenti Reverb.app"
+sudo xattr -rd com.apple.quarantine "/Applications/MAI_verb.app"
 ```
 
 #### Se il plugin è nella cartella Downloads (prima di installarlo):
 ```bash
-xattr -rd com.apple.quarantine ~/Downloads/Mainenti\ Reverb.vst3
+xattr -rd com.apple.quarantine ~/Downloads/MAI_verb.vst3
 ```
 
 **Cosa fa questo comando:**
@@ -64,7 +64,7 @@ xattr -rd com.apple.quarantine ~/Downloads/Mainenti\ Reverb.vst3
 
 **Alternativa senza sudo (rimuove tutti gli attributi):**
 ```bash
-xattr -cr "/Library/Audio/Plug-Ins/VST3/Mainenti Reverb.vst3"
+xattr -cr "/Library/Audio/Plug-Ins/VST3/MAI_verb.vst3"
 ```
 
 ### Metodo 3: Tramite Finder (Se il sistema blocca l'apertura)

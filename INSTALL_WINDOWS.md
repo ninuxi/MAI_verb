@@ -1,4 +1,4 @@
-# Installazione su Windows - Mainenti Reverb
+# Installazione su Windows - MAI_verb
 
 ## Formati Disponibili
 - **VST3**: Da usare in qualsiasi DAW (Ableton, FL Studio, Reaper, ecc.)
@@ -13,7 +13,7 @@ C:\Program Files\Common Files\VST3\
 
 ### Standalone
 ```
-C:\Program Files\Mainenti Reverb\
+C:\Program Files\MAI_verb\
 ```
 
 Oppure nella cartella del Desktop o dove preferisci.
@@ -23,14 +23,14 @@ Oppure nella cartella del Desktop o dove preferisci.
 ### Metodo 1: Installazione Manuale
 
 1. **Per il VST3:**
-   - Copia `Mainenti Reverb.vst3` in:
+   - Copia `MAI_verb.vst3` in:
      ```
      C:\Program Files\Common Files\VST3\
      ```
    - Potrebbero essere richiesti permessi di amministratore
 
 2. **Per lo Standalone:**
-   - Copia l'applicazione `Mainenti Reverb.exe` dove preferisci
+   - Copia l'applicazione `MAI_verb.exe` dove preferisci
    - Crea un collegamento sul Desktop se vuoi
 
 3. **Riavvia la tua DAW** e ricarica la lista dei plugin
@@ -46,7 +46,7 @@ C:\Users\[TuoNome]\AppData\Local\Programs\Common\VST3\
 
 #### Standalone:
 ```
-C:\Users\[TuoNome]\AppData\Local\Programs\Mainenti\
+C:\Users\[TuoNome]\AppData\Local\Programs\MAI_verb\
 ```
 
 ## Compilazione su Windows
@@ -80,8 +80,8 @@ Se vuoi compilare il plugin da solo:
 
 4. **I file compilati saranno in:**
    ```
-   build\BricastiM7_artefacts\Release\VST3\Mainenti Reverb.vst3
-   build\BricastiM7_artefacts\Release\Standalone\Mainenti Reverb.exe
+   build\BricastiM7_artefacts\Release\VST3\MAI_verb.vst3
+   build\BricastiM7_artefacts\Release\Standalone\MAI_verb.exe
    ```
 
 ## Verifica dell'Installazione
@@ -93,7 +93,7 @@ Se vuoi compilare il plugin da solo:
    - **Reaper**: Options → Preferences → Plug-ins → VST → VST3
 
 3. Ricarica/Riscannerizza i plugin
-4. Cerca "Mainenti Reverb" nella lista
+4. Cerca "MAI_verb" nella lista
 
 ## Risoluzione Problemi
 
