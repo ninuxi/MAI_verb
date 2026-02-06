@@ -18,6 +18,8 @@ Watch and listen to MAI_verb in action:
 	<img alt="MAI_verb Demo Video" src="https://img.youtube.com/vi/uMFQvq_DFgA/hqdefault.jpg" />
 </a>
 
+<a href="https://youtu.be/uMFQvq_DFgA" target="_blank" rel="noopener noreferrer">Open the demo video on YouTube (new tab)</a>
+
 ## 🌟 Features
 
 - **8x8 FDN Algorithm** - Complex, natural-sounding reverb texture
