@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="BricastiM7" name="BricastiM7" projectType="audioplug" version="1.0.0"
+              company="BricastiClone" companyWebsite="" companyEmail="" pluginFormats="vst3,au"
+              pluginCharacteristics="pluginIsEffect" bundleIdentifier="com.bricasti.m7"
+              cppLanguageStandard="17" jucerFormatVersion="1">
+  <MAINGROUP id="Source" name="Source">
+    <FILE id="PluginProcessor.cpp" name="" compile="1"/>
+    <FILE id="PluginEditor.cpp" name="" compile="1"/>
+    <GROUP id="DSP" name="DSP">
+      <FILE id="DSP/M7ReverbEngine.cpp" name="" compile="1"/>
+      <FILE id="DSP/FDN4x4.cpp" name="" compile="1"/>
+      <FILE id="DSP/EarlyReflections.cpp" name="" compile="1"/>
+      <FILE id="DSP/M7Modulation.cpp" name="" compile="1"/>
+      <FILE id="DSP/M7EQ.cpp" name="" compile="1"/>
+      <FILE id="DSP/M7Parameters.h" name="" compile="0"/>
+    </GROUP>
+    <GROUP id="Presets" name="Presets">
+      <FILE id="Presets/M7FactoryPresets.cpp" name="" compile="1"/>
+      <FILE id="Presets/M7FactoryPresets.h" name="" compile="0"/>
+    </GROUP>
+    <GROUP id="UI" name="UI">
+      <FILE id="UI/M7LookAndFeel.cpp" name="" compile="1"/>
+      <FILE id="UI/M7LookAndFeel.h" name="" compile="0"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors_headless" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" name="Xcode (MacOSX)" isDebug="0"
+               optimisation="speed" targetName="BricastiM7" preprocessorDefs="JUCE_VST3_CAN_REPLACE_VST2=0, JUCE_USE_CURL=0">
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_processors_headless" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
