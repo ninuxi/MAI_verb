@@ -1,0 +1,71 @@
+﻿â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+  MAI_verb by Mainenti @ aiforlive
+  Professional Algorithmic Reverb - Open Source
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+
+ðŸªŸ INSTALLAZIONE WINDOWS
+
+â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—
+â•‘  INSTALLAZIONE RAPIDA:                            â•‘
+â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+
+1ï¸âƒ£  Estrai il file ZIP scaricato
+
+2ï¸âƒ£  Installa il plugin VST3:
+    - Copia la cartella "Bricasti M7.vst3" in:
+      C:\Program Files\Common Files\VST3\
+
+    (Potrebbero essere richiesti permessi amministratore)
+
+3ï¸âƒ£  Per lo Standalone (opzionale):
+    - Esegui "Bricasti M7.exe" dalla cartella Standalone
+    - Oppure copia in una cartella a tua scelta
+
+4ï¸âƒ£  Riavvia la tua DAW (Ableton, FL Studio, Reaper, ecc.)
+
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+
+ðŸ“¦ FORMATI DISPONIBILI:
+
+âœ… VST3       - Per tutte le DAW moderne
+âœ… Standalone - Applicazione indipendente
+
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+
+ðŸ”§ POSIZIONI ALTERNATIVE:
+
+Se non hai permessi amministratore:
+  C:\Users\[TuoNome]\AppData\Local\Programs\Common\VST3\
+
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+
+ðŸ”§ RISOLUZIONE PROBLEMI
+
+Problema: Windows SmartScreen blocca il plugin
+
+Soluzione:
+  1. Click destro sul file
+  2. ProprietÃ  â†’ Spunta "Sblocca" â†’ Applica
+  3. Oppure: Click "Maggiori informazioni" â†’ "Esegui comunque"
+
+Problema: Plugin non appare nella DAW
+
+Soluzione:
+  1. Verifica il percorso di installazione
+  2. Forza il rescan dei plugin nella DAW
+  3. Controlla i log della DAW per errori
+
+Problema: Errore VCRUNTIME140.dll
+
+Soluzione:
+  Installa Microsoft Visual C++ Redistributable:
+  https://aka.ms/vs/17/release/vc_redist.x64.exe
+
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+
+ðŸ“„ LICENZA: Open Source (vedi LICENSE nel repository)
+ðŸ”— GitHub: https://github.com/ninuxi/MAI_verb
+ðŸ’¬ Issues: https://github.com/ninuxi/MAI_verb/issues
+ðŸ‘¤ Autore: Mainenti @ aiforlive
+
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•

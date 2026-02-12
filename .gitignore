@@ -1,0 +1,100 @@
+# Build directories
+build/
+Build/
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+
+# IDE and editor
+.vscode/
+.idea/
+*.xcodeproj/
+*.xcworkspace/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+.DS_Store
+
+# Build artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.app
+
+# Intermediate files
+*.d
+*.swp
+*.swo
+*~
+*.tmp
+
+# Plugin builds
+Builds/
+bin/
+lib/
+
+# Installation
+install/
+dist/
+
+# Dependencies
+JUCE/
+juce_modules/
+
+# Precompiled headers
+*.pch
+*.gch
+
+# Backup files
+*.backup
+*.bak
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.dSYM/
+*.su
+*.gch
+
+# Linux
+*.o.d
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Audio files (cache)
+*.wav.cache
+*.aiff.cache
+
+# Preset backups
+*.xml.bak
+*.preset.bak
+
+# Log files
+*.log
+build.log
+
+# Security - Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.cert
+*.crt
+*.cer
+*.der
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519

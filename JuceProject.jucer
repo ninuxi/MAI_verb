@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JUCE>
+  <PROJECT ID="BgShQV" name="RiverberiM7" projectType="audioplug" useAppConfig="0"
+           addUsingNamespaceToHeaders="0" displaySplashScreen="1" jucerFormatVersion="1"
+           companyName="RiverberiAudio" companyWebsite="https://riverberi.audio"
+           companyEmail="hello@riverberi.audio" pluginCharacteristicsValue="pluginWantsMidiIn=0,pluginProducesMidiOut=0,pluginIsSynth=0,pluginEditorRequiresKeys=0,pluginAUExportPrefix=RiverberiM7AU,pluginRTASCategory=Reverb,aaxIdentifier=com.riverberiAudio.RiverberiM7">
+    <MAINGROUP id="K5W8PW" name="RiverberiM7">
+      <GROUP id="PG5QZK" name="Source">
+        <GROUP id="DSP" name="DSP">
+          <FILE id="ConvEnc" name="ConvolutionEngine.cpp" compile="1" resource="0"
+                file="source/DSP/ConvolutionEngine.cpp"/>
+          <FILE id="IRLoad" name="IRLoader.cpp" compile="1" resource="0"
+                file="source/DSP/IRLoader.cpp"/>
+          <FILE id="ParamCtrl" name="ParameterController.cpp" compile="1" resource="0"
+                file="source/DSP/ParameterController.cpp"/>
+        </GROUP>
+        <GROUP id="UI" name="UI">
+          <FILE id="CustLAF" name="CustomLookAndFeel.cpp" compile="1" resource="0"
+                file="source/UI/CustomLookAndFeel.cpp"/>
+        </GROUP>
+        <FILE id="PlugProc" name="PluginProcessor.cpp" compile="1" resource="0"
+              file="source/PluginProcessor.cpp"/>
+        <FILE id="PlugEdit" name="PluginEditor.cpp" compile="1" resource="0"
+              file="source/PluginEditor.cpp"/>
+      </GROUP>
+      <GROUP id="Headers" name="Headers">
+        <GROUP id="DSPHdr" name="DSP">
+          <FILE id="ConvHdr" name="ConvolutionEngine.h" compile="0" resource="0"
+                file="source/include/DSP/ConvolutionEngine.h"/>
+          <FILE id="IRHdr" name="IRLoader.h" compile="0" resource="0"
+                file="source/include/DSP/IRLoader.h"/>
+          <FILE id="ParamHdr" name="ParameterController.h" compile="0" resource="0"
+                file="source/include/DSP/ParameterController.h"/>
+          <FILE id="SampleRateHdr" name="SampleRateConfig.h" compile="0" resource="0"
+                file="source/include/DSP/SampleRateConfig.h"/>
+          <FILE id="CrossPlatHdr" name="CrossPlatformUtils.h" compile="0" resource="0"
+                file="source/include/DSP/CrossPlatformUtils.h"/>
+        </GROUP>
+        <GROUP id="UIHdr" name="UI">
+          <FILE id="CustHdr" name="CustomLookAndFeel.h" compile="0" resource="0"
+                file="source/include/UI/CustomLookAndFeel.h"/>
+        </GROUP>
+        <FILE id="PlugHdr" name="PluginProcessor.h" compile="0" resource="0"
+              file="source/include/PluginProcessor.h"/>
+        <FILE id="EditHdr" name="PluginEditor.h" compile="0" resource="0"
+              file="source/include/PluginEditor.h"/>
+      </GROUP>
+      <GROUP id="Presets" name="Presets">
+        <FILE id="M7Pre" name="M7Presets.xml" compile="0" resource="0"
+              file="source/Presets/M7Presets.xml"/>
+      </GROUP>
+    </MAINGROUP>
+    <JUCE_MODULES>
+      <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+      <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+      <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+      <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+      <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+      <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+      <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+      <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+      <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+      <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+      <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+      <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+      <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    </JUCE_MODULES>
+    <EXPORTFORMATS>
+      <VS2022 targetFolder="Builds/VisualStudio2022">
+        <CONFIGURATIONS>
+          <CONFIGURATION isDebug="1" name="Debug" targetName="RiverberiM7"/>
+          <CONFIGURATION isDebug="0" name="Release" targetName="RiverberiM7"/>
+        </CONFIGURATIONS>
+        <MODULEPATHS>
+          <MODULEPATH id="juce_core" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_events" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_graphics" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_data_structures" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_gui_basics" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_gui_extra" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_audio_basics" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_audio_devices" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_audio_formats" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_audio_processors" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_audio_plugin_client" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_dsp" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_audio_utils" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+        </MODULEPATHS>
+      </VS2022>
+      <XCODE_MAC targetFolder="Builds/MacOSX">
+        <CONFIGURATIONS>
+          <CONFIGURATION isDebug="1" name="Debug" targetName="RiverberiM7"/>
+          <CONFIGURATION isDebug="0" name="Release" targetName="RiverberiM7"/>
+        </CONFIGURATIONS>
+        <MODULEPATHS>
+          <MODULEPATH id="juce_core" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_events" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_graphics" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_data_structures" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_gui_basics" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_gui_extra" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_audio_basics" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_audio_devices" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_audio_formats" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_audio_processors" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_audio_plugin_client" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_dsp" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_audio_utils" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+        </MODULEPATHS>
+      </XCODE_MAC>
+      <LINUX_MAKE targetFolder="Builds/LinuxMakeFile">
+        <CONFIGURATIONS>
+          <CONFIGURATION isDebug="1" name="Debug" targetName="RiverberiM7"/>
+          <CONFIGURATION isDebug="0" name="Release" targetName="RiverberiM7"/>
+        </CONFIGURATIONS>
+        <MODULEPATHS>
+          <MODULEPATH id="juce_core" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_events" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_graphics" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_data_structures" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_gui_basics" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_gui_extra" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_audio_basics" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_audio_devices" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_audio_formats" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_audio_processors" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_audio_plugin_client" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_dsp" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+          <MODULEPATH id="juce_audio_utils" path="/Users/mainenti/make_plugin_riverberi/JUCE/modules"/>
+        </MODULEPATHS>
+      </LINUX_MAKE>
+    </EXPORTFORMATS>
+    <LIVE_SETTINGS>
+      <OSX/>
+    </LIVE_SETTINGS>
+  </PROJECT>
+</JUCE>

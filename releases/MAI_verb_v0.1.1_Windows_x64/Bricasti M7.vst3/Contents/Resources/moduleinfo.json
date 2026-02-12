@@ -1,0 +1,46 @@
+{
+  "Name": "Bricasti M7",
+  "Version": "0.0.0",
+  "Factory Info": {
+    "Vendor": "BricastiClone",
+    "URL": "",
+    "E-Mail": "",
+    "Flags": {
+      "Unicode": true,
+      "Classes Discardable": false,
+      "Component Non Discardable": false,
+    },
+  },
+  "Classes": [
+    {
+      "CID": "5653544D375276627269636173746920",
+      "Category": "Audio Module Class",
+      "Name": "Bricasti M7",
+      "Vendor": "BricastiClone",
+      "Version": "0.0.0",
+      "SDKVersion": "VST 3.8.0",
+      "Sub Categories": [
+        "Fx",
+      ],
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+    {
+      "CID": "5653454D375276627269636173746920",
+      "Category": "Component Controller Class",
+      "Name": "Bricasti M7",
+      "Vendor": "BricastiClone",
+      "Version": "0.0.0",
+      "SDKVersion": "VST 3.8.0",
+      "Sub Categories": [
+        "Fx",
+      ],
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+  ],
+}
