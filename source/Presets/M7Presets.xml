@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RiverberiM7Presets>
+  <!-- Hall Presets -->
+  <Preset name="Hall Large" category="Hall">
+    <Parameter id="decay" value="4.5"/>
+    <Parameter id="predelay" value="25.0"/>
+    <Parameter id="damping" value="0.4"/>
+    <Parameter id="stereoWidth" value="0.8"/>
+    <Parameter id="earlyReflections" value="0.6"/>
+    <Parameter id="mix" value="0.6"/>
+    <Parameter id="size" value="0.9"/>
+    <Parameter id="diffusion" value="0.85"/>
+  </Preset>
+
+  <Preset name="Hall Medium" category="Hall">
+    <Parameter id="decay" value="3.2"/>
+    <Parameter id="predelay" value="20.0"/>
+    <Parameter id="damping" value="0.5"/>
+    <Parameter id="stereoWidth" value="0.75"/>
+    <Parameter id="earlyReflections" value="0.55"/>
+    <Parameter id="mix" value="0.55"/>
+    <Parameter id="size" value="0.7"/>
+    <Parameter id="diffusion" value="0.8"/>
+  </Preset>
+
+  <Preset name="Hall Small" category="Hall">
+    <Parameter id="decay" value="2.0"/>
+    <Parameter id="predelay" value="15.0"/>
+    <Parameter id="damping" value="0.6"/>
+    <Parameter id="stereoWidth" value="0.65"/>
+    <Parameter id="earlyReflections" value="0.5"/>
+    <Parameter id="mix" value="0.5"/>
+    <Parameter id="size" value="0.5"/>
+    <Parameter id="diffusion" value="0.75"/>
+  </Preset>
+
+  <!-- Plate Presets -->
+  <Preset name="Plate Bright" category="Plate">
+    <Parameter id="decay" value="2.5"/>
+    <Parameter id="predelay" value="5.0"/>
+    <Parameter id="damping" value="0.3"/>
+    <Parameter id="stereoWidth" value="0.9"/>
+    <Parameter id="earlyReflections" value="0.4"/>
+    <Parameter id="mix" value="0.6"/>
+    <Parameter id="size" value="0.6"/>
+    <Parameter id="diffusion" value="0.7"/>
+  </Preset>
+
+  <Preset name="Plate Dark" category="Plate">
+    <Parameter id="decay" value="2.8"/>
+    <Parameter id="predelay" value="8.0"/>
+    <Parameter id="damping" value="0.7"/>
+    <Parameter id="stereoWidth" value="0.85"/>
+    <Parameter id="earlyReflections" value="0.35"/>
+    <Parameter id="mix" value="0.55"/>
+    <Parameter id="size" value="0.55"/>
+    <Parameter id="diffusion" value="0.65"/>
+  </Preset>
+
+  <!-- Room Presets -->
+  <Preset name="Room Small" category="Room">
+    <Parameter id="decay" value="1.2"/>
+    <Parameter id="predelay" value="10.0"/>
+    <Parameter id="damping" value="0.8"/>
+    <Parameter id="stereoWidth" value="0.5"/>
+    <Parameter id="earlyReflections" value="0.7"/>
+    <Parameter id="mix" value="0.4"/>
+    <Parameter id="size" value="0.3"/>
+    <Parameter id="diffusion" value="0.6"/>
+  </Preset>
+
+  <Preset name="Room Large" category="Room">
+    <Parameter id="decay" value="2.5"/>
+    <Parameter id="predelay" value="30.0"/>
+    <Parameter id="damping" value="0.5"/>
+    <Parameter id="stereoWidth" value="0.8"/>
+    <Parameter id="earlyReflections" value="0.65"/>
+    <Parameter id="mix" value="0.5"/>
+    <Parameter id="size" value="0.8"/>
+    <Parameter id="diffusion" value="0.8"/>
+  </Preset>
+
+  <!-- Special Presets -->
+  <Preset name="Cathedral" category="Special">
+    <Parameter id="decay" value="6.0"/>
+    <Parameter id="predelay" value="50.0"/>
+    <Parameter id="damping" value="0.35"/>
+    <Parameter id="stereoWidth" value="0.95"/>
+    <Parameter id="earlyReflections" value="0.75"/>
+    <Parameter id="mix" value="0.65"/>
+    <Parameter id="size" value="0.95"/>
+    <Parameter id="diffusion" value="0.9"/>
+  </Preset>
+
+  <Preset name="Ambient" category="Special">
+    <Parameter id="decay" value="5.5"/>
+    <Parameter id="predelay" value="100.0"/>
+    <Parameter id="damping" value="0.2"/>
+    <Parameter id="stereoWidth" value="0.9"/>
+    <Parameter id="earlyReflections" value="0.3"/>
+    <Parameter id="mix" value="0.7"/>
+    <Parameter id="size" value="0.85"/>
+    <Parameter id="diffusion" value="0.95"/>
+  </Preset>
+
+  <Preset name="Vocal Reverb" category="Special">
+    <Parameter id="decay" value="1.8"/>
+    <Parameter id="predelay" value="12.0"/>
+    <Parameter id="damping" value="0.6"/>
+    <Parameter id="stereoWidth" value="0.7"/>
+    <Parameter id="earlyReflections" value="0.8"/>
+    <Parameter id="mix" value="0.45"/>
+    <Parameter id="size" value="0.5"/>
+    <Parameter id="diffusion" value="0.7"/>
+  </Preset>
+
+  <Preset name="Bright & Airy" category="Special">
+    <Parameter id="decay" value="3.5"/>
+    <Parameter id="predelay" value="18.0"/>
+    <Parameter id="damping" value="0.2"/>
+    <Parameter id="stereoWidth" value="0.95"/>
+    <Parameter id="earlyReflections" value="0.6"/>
+    <Parameter id="mix" value="0.55"/>
+    <Parameter id="size" value="0.75"/>
+    <Parameter id="diffusion" value="0.85"/>
+  </Preset>
+
+  <Preset name="Tight & Controlled" category="Special">
+    <Parameter id="decay" value="1.5"/>
+    <Parameter id="predelay" value="5.0"/>
+    <Parameter id="damping" value="0.85"/>
+    <Parameter id="stereoWidth" value="0.4"/>
+    <Parameter id="earlyReflections" value="0.9"/>
+    <Parameter id="mix" value="0.35"/>
+    <Parameter id="size" value="0.3"/>
+    <Parameter id="diffusion" value="0.5"/>
+  </Preset>
+</RiverberiM7Presets>
